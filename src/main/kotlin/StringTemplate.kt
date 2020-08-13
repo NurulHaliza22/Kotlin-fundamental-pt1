@@ -1,0 +1,12 @@
+fun main() {
+    var name = "Kotlin"
+    var age = 4
+    val version = "1.3.70"
+    val text = """
+        Nama saya $name
+        Saya berusia $age tahun
+        Saat ini saya sudah mencapai versi $version
+    """.trimIndent()
+
+    print(text)
+}
